@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+    
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 8%;
+    background: linear-gradient(to left top, #b92b27, #1565c0);
+    
+}
+.box{
+    width: 80%;
+   min-height: fit-content;
+    border: none;
+
+}
+.box h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 27px;
+}
+.gallery img{
+    width: 100%;
+    padding-left: 8px;
+    padding-top:8px;
+    padding-right:8px;
+    padding-bottom: 8px;
+
+}
+
